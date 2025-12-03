@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/style.css">
+    <title>SkySense</title>
+</head>
+<body>
+
+    <main>
+        <h1>Previsao do Tempo</h1>
+        <img src="assets/icons/nuvens-2.svg" alt="nuvem" class="nuvem">
+        <div class="info-principal">
+            <p id="grauPrincipal"></p>
+            <p id="minMAx"></p>
+        </div>
+
+        <div class="campo-texto">
+            <input type="text" placeholder="Buscar Cidade" required autocomplete="on" >
+            <button><img src="assets/icons/arrow-click.svg" alt=""></button>
+        </div>
+
+        <div class="conteudo-adicional">
+            <div class="infoClima">
+                <img src="assets/icons/vento.svg" alt="vento">
+                <div class="stats">
+                    <h2>Vento</h2>
+                    <p id="vento"></p>
+                </div>
+            </div>
+
+            <div class="infoClima">
+                <img src="assets/icons/umidade.svg" alt="">
+                <div class="stats">
+                    <h2>Umidade</h2>
+                    <p id="umidade" ></p>
+                </div>
+            </div>
+     
+            <div class="infoClima">
+                <img src="assets/icons/chuva-2.svg" alt="">
+                <div class="stats">
+                    <h2>Chuva</h2>
+                    <p id="chuva"></p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <section class="box-section">
+
+        <div id="sensacao-termica" class="box">
+            <img src="" alt="" id="icon-clima">
+            <p id="valor-Termico"></p>
+         <p><img src="assets/icons/folha.svg" alt="folha" class="icon-folha">Sensação Térmica</p>
+        </div>
+
+        <div id="horario" class="box">
+            <img src="assets/icons/Calendar.svg" alt="calendario">
+            <div class="conteudo-data">
+                <p id="hora"></p>
+                <p id="data"></p>
+                <p id="dia"></p>
+                <p id="local"></p>
+            
+            </div>
+        </div>
+
+    </section>
+
+    <section class="previsao" id="sectionPrevisao">
+        <p>Previsão Dos Próximos Dias</p>
+    </section>
+    
+    <script src="/script/script.js"></script>
+</body>
+</html>

@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-/*fazer uma nuvem flutuante*/
+
 
 *{
     box-sizing: border-box;
@@ -16,7 +16,7 @@ body {
     align-items: center;
     justify-content:center ;
     gap: 20px;
-    background-image: url(/assets/imagens/background.svg);
+    background-image: url(../assets/imagens/background.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -35,7 +35,7 @@ main {
     margin-top: 45px;
     position: relative;
 
-    background-image: url(/assets/imagens/background2-mobile.svg);
+    background-image: url(../assets/imagens/background2-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -95,7 +95,7 @@ h1 {
   margin-left:20px; 
 }
 
-span{ /* ajustar o tamanho */
+span{ 
     margin-top: 15px;
     font-size: 1.5rem;
 }
@@ -208,7 +208,7 @@ div > .stats > p {margin-right: 5px;}
 .conteudo-data > p:nth-child(4) {
     display: flex;
     font-size: clamp(16px, 3.5vw, 19px);
-    margin-top: 4px; /*ajustar em telas maiores */
+    margin-top: 4px; 
     margin-left: -7px;
     gap: 6px; 
 }
@@ -384,4 +384,4 @@ p:nth-child(4) > img{ width: clamp(14px, 1vw, 18px); }
     to {transform: translateY(0px);}
 }
 
-/**/
+

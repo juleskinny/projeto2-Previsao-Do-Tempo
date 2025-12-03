@@ -166,22 +166,22 @@ async function buscarPrevisao() {
     }
 
     const iconLocal = document.createElement('img')
-    iconLocal.src = 'assets/icons/local.svg'
+    iconLocal.src = '../assets/icons/local.svg'
     local.append(iconLocal, captalize(input.value))
     
     function verificacaoIconClima(chave, variavel) {
         switch (chave) {
             case 'Clouds':
-                variavel.src = '/assets/icons/nublado.svg'
+                variavel.src = '../assets/icons/nublado.svg'
                 break;
             case 'Rain':
-                variavel.src = '/assets/icons/chuva.svg'
+                variavel.src = '../assets/icons/chuva.svg'
                 break;
             case 'Clear':
-                variavel.src = '/assets/icons/sol.svg'
+                variavel.src = '../assets/icons/sol.svg'
                 break;
             case 'Snow':
-                variavel.src = '/assets/icons/snow.svg'
+                variavel.src = '../assets/icons/snow.svg'
                 variavel.style.width = 'clamp(30px, 9.5vw, 55px)'
                 variavel.style.margin = '3px' 
                 break;
@@ -213,8 +213,3 @@ const enviar = document.querySelector('button')
 enviar.addEventListener('click', buscarPrevisao)
 
 
-// adicionar comentários
-// clonar porcentagem de chuva ---> verificar ras 21 da noite 
-// utilizar geolocation
-// aprimorar as previsoes com base na descrição
-// fazer atualizar toda meia noite

@@ -281,17 +281,3 @@ enviar.addEventListener('click', async () => {
     dadosClima(d) 
     
 })
-
-/*atualizações e melhorias: 
-
-  -- separa o código principal em funções menores para reutilizar e facilitar a leitura
-  -- adiciona verificação para evitar que resposta antigas sobrescrevam a tela
-  -- função erroAviso agora aceita tanto objetos de erro quanto strings simples
-  -- remove código comentado e desnecessário
-  -- adiciona função de geoolocalização para buscar latitude e longitude do usuario
-  -- adiciona função localizacao para converter lat e long em endereço legível
-  -- codigo inicia pedindo permissão de localização para iniciar com a cidade atual do usuario
-  -- adiciona comentarios explicativos para facilitar entendimento do código
-  
-
-*/
